@@ -33,6 +33,8 @@
 
 # Dirs
 build
+thirdy_party
 
 # Python
 venv
+.ipynb_checkpoints
