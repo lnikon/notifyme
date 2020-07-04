@@ -18,3 +18,5 @@ add_custom_target(venv DEPENDS ${PYTHON} ${REQUIREMENTS})
 
 add_executable(main main.cpp)
 add_dependencies(main venv)
+
+add_subdirectory(${CMAKE_SOURCE_DIR}/nn_experiments)
